@@ -1,0 +1,11 @@
+1、postman优点：
+自带cookie支持：请求可以使用同一域名下的cookie；
+内置代理支持：可以用来转发请求，分析请求流量；
+自定义请求头：不必受限于Chrome中对于请求头的限制；
+内置控制台：在控制台可以查看请求的详细信息
+2、Postman断言：让程序判断预期结果和实际结果是否一致  在 tests页写，在test results 页查看
+1）Status code:Code is 200 判断响应状态码是否等于200
+2）Response body：Contains String 判断响应体中是否包含指定的字符串
+3）Response body：Is equal to string 判断响应体数据是否等于指定的字符串
+4）Response body：JSON value check 检验响应的json数据
+5）Response headers: Content-type header check 判断响应头中是否包含指定的头标签
